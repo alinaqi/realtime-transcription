@@ -24,7 +24,7 @@ audio_queue = Queue()
 playback_lock = threading.Lock()
 
 client = Groq(
-    api_key="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"
+    api_key="<your groq api key>",
 )
 
 def play_audio_with_ffplay(file_path):
